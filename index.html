@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Regions Mortgage Login</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .form-container {
+      background-color: #fff;
+      padding: 40px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      width: 400px;
+    }
+
+    .logo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    .logo img {
+      width: 100px;
+    }
+
+    .form-title {
+      text-align: center;
+      margin-bottom: 20px;
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .form-group {
+      margin-bottom: 20px;
+    }
+
+    .label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+
+    .input {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+
+    .remember-me {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    .remember-me input {
+      margin-right: 5px;
+    }
+
+    .btn-primary {
+      background-color: #4CAF50;
+      color: #fff;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      width: 100%;
+    }
+
+    .btn-primary:hover {
+      background-color: #45a049;
+    }
+
+    .links {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .links a {
+      color: #333;
+      text-decoration: none;
+      margin-right: 15px;
+    }
+
+    .links a:hover {
+      text-decoration: underline;
+    }
+
+    .image-container {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+
+    .image-container img {
+      max-width: 60%;
+      max-height: 60%;
+    }
+
+    .footer {
+      text-align: center;
+      padding: 10px;
+      font-size: 12px;
+      color: #666;
+    }
+
+    .footer a {
+      color: #666;
+      text-decoration: none;
+    }
+
+    .footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="form-container">
+      <div class="logo">
+        <img src="region.jpg" alt="Regions Logo" />
+      </div>
+      <h2 class="form-title">Welcome Back</h2>
+      <p>Sign in to your Regions MyMortgage account.</p>
+      <form>
+        <div class="form-group">
+          <label for="online-id" class="label">Online ID</label>
+          <input type="text" id="online-id" class="input" value="randallb" />
+        </div>
+        <div class="form-group">
+          <label for="password" class="label">Password</label>
+          <input type="password" id="password" class="input" placeholder="********" />
+          <button type="button" class="show-password">Show</button>
+        </div>
+        <div class="remember-me">
+          <input type="checkbox" id="remember-me" />
+          <label for="remember-me">Remember me</label>
+        </div>
+        <button type="submit" class="btn-primary">Login</button>
+        <div class="links">
+          <a href="#">Forgot Online ID?</a>
+          <a href="#">Forgot Password?</a>
+        </div>
+      </form>
+    </div>
+    <div class="image-container">
+      <img src="region.jpg" alt="Regions Logo" />
+    </div>
+  </div>
+  <div class="footer">
+    <a href="#">Equal Housing Lender</a> - 
+    <a href="#">Member FDIC</a> - 
+    <a href="#">1 (800) REGIONS</a>
+    <p>&copy; 2023 Regions Financial Corporation. All Rights Reserved.</p>
+  </div>
+</body>
+</html>
